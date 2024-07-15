@@ -1,35 +1,42 @@
-<div class="form-box login">
-        <h2 class="animation" style="--i: 0; --j: 21">login</h2>
-          <div class="input-box animation" style="--i: 1; --j: 22">
-            <input type="email" name="email" required />
-            <label for="">Email</label>
-            <i class="bx bxs-envelope"></i>
+<div class="container">
+  <!-- Outer Row -->
+  <div class="row justify-content-center">
+    <div class="col-lg-7">
+
+      <div class="card o-hidden border-0 shadow-lg my-5">
+        <div class="card-body p-0">
+          <!-- Nested Row within Card Body -->
+          <div class="row">
+            <div class="col-lg">
+              <div class="p-5">
+                <div class="text-center">
+                  <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                </div>
+                <form class="user">
+                  <div class="form-group">
+                    <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address..." />
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" />
+                  </div>
+                  <div class="form-group">
+                  </div>
+                  <a href="index.html" class="btn btn-primary btn-user btn-block">
+                    Login
+                  </a>
+                </form>
+                <hr />
+                <div class="text-center">
+                  <a class="small" href="forgot-password.html">Forgot Password?</a>
+                </div>
+                <div class="text-center">
+                  <a class="small" href="<?= base_url('register') ?>">Create an Account!</a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="input-box animation" style="--i: 2; --j: 23">
-            <input type="password" name="password" required />
-            <label for="">password</label>
-            <i class="bx bxs-lock"></i>
-          </div>
-          <button type="submit " class="btn animation" style="--i: 3; --j: 24">
-            Login
-          </button>
-          <div class="logreg-link animation" style="--i: 4; --j: 25">
-            <p>
-              Don't have account?
-              <a href="<?php echo base_url('register') ?>" class="register-link animation">Sing up</a>
-            </p>
-          </div>
-        </form>
+        </div>
       </div>
-      <div class="info-text login">
-        <h2 class="animation" style="--i: 0; --j: 20; color: #fff">
-          Welcome back
-        </h2>
-        <p class="animation" style="--i: 1; --j: 21">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
-          voluptate!
-        </p>
-      </div>
-   
-        </p>
-      </div>
+    </div>
+  </div>
+</div>
