@@ -37,7 +37,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="<?php echo base_url('auth'); ?>" class="<?php if($page=='course'){echo 'active';}; ?>">Get Started</a>
+      <a class="btn-getstarted" href="<?php echo base_url('login'); ?>" class="">Get Started</a>
 
     </div>
   </header>

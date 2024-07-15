@@ -16,7 +16,7 @@
           <div class="logreg-link animation" style="--i: 4; --j: 25">
             <p>
               Don't have account?
-              <a href="<?php echo base_url('auth/register') ?>" class="register-link animation">Sing up</a>
+              <a href="<?php echo base_url('register') ?>" class="register-link animation">Sing up</a>
             </p>
           </div>
         </form>
@@ -28,5 +28,8 @@
         <p class="animation" style="--i: 1; --j: 21">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
           voluptate!
+        </p>
+      </div>
+   
         </p>
       </div>
