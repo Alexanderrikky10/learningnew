@@ -1,9 +1,11 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Guru extends CI_Controller {
+class Guru extends CI_Controller
+{
 
-    public function __construct() {
+    public function __construct()
+    {
         parent::__construct();
     }
 
@@ -15,7 +17,6 @@ class Guru extends CI_Controller {
         ];
         $this->load->view('widget/guru/v_template_guru', $data);
     }
-
 }
 
 /* End of file: Guru.php */
