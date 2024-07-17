@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------
@@ -78,7 +78,7 @@ $db['default'] = array(
     'hostname' => 'localhost', // sesuaikan dengan hostname MySQL Anda jika berbeda
     'username' => 'root',      // sesuaikan dengan username MySQL Anda
     'password' => '',          // sesuaikan dengan password MySQL Anda
-    'database' => 'db_learning', // sesuaikan dengan nama database yang digunakan
+    'database' => 'learning', // sesuaikan dengan nama database yang digunakan
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
