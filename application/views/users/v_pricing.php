@@ -15,7 +15,7 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-          <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
+          <li><a href="<?php echo base_url('users/home'); ?>">Home</a></li>
             <li class="current">Pricing</li>
           </ol>
         </div>

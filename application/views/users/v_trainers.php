@@ -15,7 +15,7 @@
   <nav class="breadcrumbs">
     <div class="container">
       <ol>
-      <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
+      <li><a href="<?php echo base_url('users/home'); ?>">Home</a></li>
         <li class="current">Trainers</li>
       </ol>
     </div>
@@ -31,7 +31,7 @@
 
       <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
         <div class="member-img">
-          <img src="assets/img/team/tim-1.jpg" class="img-fluid" alt="">
+          <img src="<?php echo base_url('assets/');?>img/team/tim-1.jpg" class="img-fluid" alt="">
           <div class="social">
             <a href="#"><i class="bi bi-twitter-x"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
@@ -48,7 +48,7 @@
 
       <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
         <div class="member-img">
-          <img src="assets/img/team/tim-2.jpg" class="img-fluid" alt="">
+          <img src="<?php echo base_url('assets/');?>img/team/tim-2.jpg" class="img-fluid" alt="">
           <div class="social">
             <a href="#"><i class="bi bi-twitter-x"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
@@ -65,7 +65,7 @@
 
       <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
         <div class="member-img">
-          <img src="assets/img/team/tim-3.jpg" class="img-fluid" alt="">
+          <img src="<?php echo base_url('assets/');?>img/team/tim-3.jpg" class="img-fluid" alt="">
           <div class="social">
             <a href="#"><i class="bi bi-twitter-x"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
@@ -82,7 +82,7 @@
 
       <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
         <div class="member-img">
-          <img src="assets/img/team/tim-4.jpg" class="img-fluid" alt="">
+          <img src="<?php echo base_url('assets/');?>img/team/tim-4.jpg" class="img-fluid" alt="">
           <div class="social">
             <a href="#"><i class="bi bi-twitter-x"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
@@ -99,7 +99,7 @@
 
       <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
         <div class="member-img">
-          <img src="assets/img/team/tim-5.jpg" class="img-fluid" alt="">
+          <img src="<?php echo base_url('assets/');?>img/team/tim-5.jpg" class="img-fluid" alt="">
           <div class="social">
             <a href="#"><i class="bi bi-twitter-x"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
@@ -116,7 +116,7 @@
 
       <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
         <div class="member-img">
-          <img src="assets/img/team/tim-6.jpg" class="img-fluid" alt="">
+          <img src="<?php echo base_url('assets/');?>img/team/tim-6.jpg" class="img-fluid" alt="">
           <div class="social">
             <a href="#"><i class="bi bi-twitter-x"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>

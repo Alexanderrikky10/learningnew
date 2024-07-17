@@ -15,7 +15,7 @@
   <nav class="breadcrumbs">
     <div class="container">
       <ol>
-      <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
+      <li><a href="<?php echo base_url('users/home'); ?>">Home</a></li>
         <li class="current">Courses</li>
       </ol>
     </div>
@@ -31,18 +31,18 @@
 
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
         <div class="course-item">
-          <img src="assets/img/course-1.jpg" class="img-fluid" alt="...">
+          <img src="<?php echo base_url('assets/');?>img/course-1.jpg" class="img-fluid" alt="...">
           <div class="course-content">
             <div class="d-flex justify-content-between align-items-center mb-3">
               <p class="category">Web Development</p>
               <p class="price">$169</p>
             </div>
 
-            <h3><a href="<?php echo base_url('coursedetails') ?>">Website Design</a></h3>
+            <h3><a href="<?php echo base_url('users/course_details') ?>">Website Design</a></h3>
             <p class="description">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
             <div class="trainer d-flex justify-content-between align-items-center">
               <div class="trainer-profile d-flex align-items-center">
-                <img src="assets/img/trainers/trainer-1-2.jpg" class="img-fluid" alt="">
+                <img src="<?php echo base_url('assets/');?>img/trainers/trainer-1-2.jpg" class="img-fluid" alt="">
                 <a href="" class="trainer-link">Antonio</a>
               </div>
               <div class="trainer-rank d-flex align-items-center">
@@ -57,18 +57,18 @@
 
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
         <div class="course-item">
-          <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
+          <img src="<?php echo base_url('assets/');?>img/course-2.jpg" class="img-fluid" alt="...">
           <div class="course-content">
             <div class="d-flex justify-content-between align-items-center mb-3">
               <p class="category">Marketing</p>
               <p class="price">$250</p>
             </div>
 
-            <h3><a href="course-details.html">Search Engine Optimization</a></h3>
+            <h3><a href="<?php echo base_url('users/course_details') ?>">Search Engine Optimization</a></h3>
             <p class="description">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
             <div class="trainer d-flex justify-content-between align-items-center">
               <div class="trainer-profile d-flex align-items-center">
-                <img src="assets/img/trainers/trainer-2-2.jpg" class="img-fluid" alt="">
+                <img src="<?php echo base_url('assets/');?>img/trainers/trainer-2-2.jpg" class="img-fluid" alt="">
                 <a href="" class="trainer-link">Lana</a>
               </div>
               <div class="trainer-rank d-flex align-items-center">
@@ -83,18 +83,18 @@
 
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
         <div class="course-item">
-          <img src="assets/img/course-3.jpg" class="img-fluid" alt="...">
+          <img src="<?php echo base_url('assets/');?>img/course-3.jpg" class="img-fluid" alt="...">
           <div class="course-content">
             <div class="d-flex justify-content-between align-items-center mb-3">
               <p class="category">Content</p>
               <p class="price">$180</p>
             </div>
 
-            <h3><a href="course-details.html">Copywriting</a></h3>
+            <h3><a href="<?php echo base_url('users/course_details') ?>">Copywriting</a></h3>
             <p class="description">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
             <div class="trainer d-flex justify-content-between align-items-center">
               <div class="trainer-profile d-flex align-items-center">
-                <img src="assets/img/trainers/trainer-3-2.jpg" class="img-fluid" alt="">
+                <img src="<?php echo base_url('assets/');?>img/trainers/trainer-3-2.jpg" class="img-fluid" alt="">
                 <a href="" class="trainer-link">Brandon</a>
               </div>
               <div class="trainer-rank d-flex align-items-center">

@@ -39,11 +39,11 @@
 
 <body class="about-page">
 
-<?php $this->load->view('users/v_header'); ?>
+<?php $this->load->view('widget/users/v_header'); ?>
 
 <?= $konten; ?>
 
-<?php $this->load->view('users/v_footer'); ?>
+<?php $this->load->view('widget/users/v_footer'); ?>
 
 
   <!-- Scroll Top -->

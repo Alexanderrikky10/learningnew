@@ -15,7 +15,7 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-          <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
+          <li><a href="<?php echo base_url('users/home'); ?>">Home</a></li>
             <li class="current">Events</li>
           </ol>
         </div>
@@ -31,7 +31,7 @@
           <div class="col-md-6 d-flex align-items-stretch">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/events-item-1.jpg" alt="...">
+                <img src="<?php echo base_url('assets/');?>img/events-item-1.jpg" alt="...">
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="">Introduction to webdesign</a></h5>
@@ -43,7 +43,7 @@
           <div class="col-md-6 d-flex align-items-stretch">
             <div class="card">
               <div class="card-img">
-                <img src="assets/img/events-item-2.jpg" alt="...">
+                <img src="<?php echo base_url('assets/');?>img/events-item-2.jpg" alt="...">
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="">Marketing Strategies</a></h5>

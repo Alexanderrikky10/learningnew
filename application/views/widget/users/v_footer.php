@@ -23,8 +23,8 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
-            <li><a href="<?php echo base_url('about'); ?>">About us</a></li>
+            <li><a href="<?php echo base_url('users/home'); ?>">Home</a></li>
+            <li><a href="<?php echo base_url('users/about'); ?>">About us</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Terms of service</a></li>
             <li><a href="#">Privacy policy</a></li>

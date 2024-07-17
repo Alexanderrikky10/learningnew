@@ -16,7 +16,7 @@
   <nav class="breadcrumbs">
     <div class="container">
       <ol>
-      <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
+      <li><a href="<?php echo base_url('users/home'); ?>">Home</a></li>
         <li class="current">About Us<br></li>
       </ol>
     </div>
@@ -31,7 +31,8 @@
     <div class="row gy-4">
 
       <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
-        <img src="assets/img/about-2.jpg" class="img-fluid" alt="">
+      <img src="<?php echo base_url('assets/');?>img/about-2.jpg" class="img-fluid" alt="">
+
       </div>
 
       <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
@@ -136,7 +137,7 @@
         <div class="swiper-slide">
           <div class="testimonial-wrap">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <img src="<?php echo base_url('assets/');?>img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
               <h3>Saul Goodman</h3>
               <h4>Ceo &amp; Founder</h4>
               <div class="stars">
@@ -154,7 +155,7 @@
         <div class="swiper-slide">
           <div class="testimonial-wrap">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <img src="<?php echo base_url('assets/');?>img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
               <h3>Sara Wilsson</h3>
               <h4>Designer</h4>
               <div class="stars">
@@ -172,7 +173,7 @@
         <div class="swiper-slide">
           <div class="testimonial-wrap">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <img src="<?php echo base_url('assets/');?>img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
               <h3>Jena Karlis</h3>
               <h4>Store Owner</h4>
               <div class="stars">
@@ -190,7 +191,7 @@
         <div class="swiper-slide">
           <div class="testimonial-wrap">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+              <img src="<?php echo base_url('assets/');?>img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
               <h3>Matt Brandon</h3>
               <h4>Freelancer</h4>
               <div class="stars">
@@ -208,7 +209,7 @@
         <div class="swiper-slide">
           <div class="testimonial-wrap">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+              <img src="<?php echo base_url('assets/');?>img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
               <h3>John Larson</h3>
               <h4>Entrepreneur</h4>
               <div class="stars">

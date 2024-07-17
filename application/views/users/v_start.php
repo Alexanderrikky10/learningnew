@@ -4,7 +4,7 @@
 <div class="page-title" data-aos="fade">
 <section id="hero" class="hero section dark-background">
 
-<img src="assets/img/background-start.jpg" alt="" data-aos="fade-in">
+<img src="<?php echo base_url('assets/');?>img/background-start.jpg" alt="" data-aos="fade-in">
 
 
 
@@ -23,7 +23,7 @@
   <nav class="breadcrumbs">
     <div class="container">
       <ol>
-      <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
+      <li><a href="<?php echo base_url('users/home'); ?>">Home</a></li>
         <li class="current">Starter Page</li>
       </ol>
     </div>
