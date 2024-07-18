@@ -7,7 +7,7 @@
             <h6 class="m-0 font-weight-bold text-primary">Data User</h6>
         </div>
         <div style="padding: 20px;">
-            <a href="<?= base_url('users/add'); ?>" class="btn btn-primary">Tambah Data</a>
+            <a href="<?= base_url(''); ?>" class="btn btn-primary">Tambah Data</a>
 
         </div>
         <div class="card-body">

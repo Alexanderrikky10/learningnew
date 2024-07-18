@@ -14,7 +14,7 @@ class Auth extends CI_Controller
         if ($this->session->userdata('email'))
             redirect('users');
 
-        $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email');
+        $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email');                   
         $this->form_validation->set_rules('password', 'Password', 'trim|required');
 
         if ($this->form_validation->run() == false) {
@@ -121,4 +121,4 @@ class Auth extends CI_Controller
     }
 }
 
-/* End of file: Auth.php */
+/* End of file: Auth.php */    

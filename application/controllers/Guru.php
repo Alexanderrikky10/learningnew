@@ -17,6 +17,16 @@ class Guru extends CI_Controller
         ];
         $this->load->view('widget/guru/v_template_guru', $data);
     }
+
+   
+    public function absen()
+    {
+        $data = [
+            'page' => 'absen',
+            'konten' => $this->load->view('guru/v_absen', [], TRUE),
+        ];
+        $this->load->view('widget/guru/v_template_guru', $data);
+    }
 }
 
 /* End of file: Guru.php */
