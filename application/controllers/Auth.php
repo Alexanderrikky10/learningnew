@@ -53,6 +53,7 @@ class Auth extends CI_Controller
                     } elseif ($user['role_id'] == 2) {
                         redirect('guru');
                     } elseif ($user['role_id'] == 3) {
+                        $this->session->set_flashdata('message', '<div class="alert alert-success alert-message" role="alert">anda berhasil login</div>');
                         redirect('users');
                     }
                 } else {
