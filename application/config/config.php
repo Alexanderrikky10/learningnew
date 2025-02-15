@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-/*
+/*jangan lupa belajar yaa
 |--------------------------------------------------------------------------
 | Base Site URL
 |--------------------------------------------------------------------------
